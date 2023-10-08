@@ -55,7 +55,7 @@ and for it's simplicty + ability to overcome limitations
 I have chose to go with ANN model, due to the good score it gave us compared to other models. It is also important to have a model that is capable of understanding hiden parameters in the data, and deal with enormous amount of data in the long run.
 Also, Neural Network are cool !
 
-Recall shows whether an ML model can find all objects of the target class. Also, Recall is a metric that quantifies the number of correct positive predictions made out of
+I used Recall for the ANN model, because it shows whether an ML model can find all objects of the target class. Also, Recall is a metric that quantifies the number of correct positive predictions made out of
 all positive predictions that could have been made. Unlike precision that only comments on the correct positive predictions out of all positive predictions,
 recall provides an indication of missed positive predictions.
 
