@@ -76,4 +76,4 @@ Trainable params: 123 (492.00 Byte)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
 
-Finally to deploy our model using spark library. type "python app.py in your terminal poiting to the path of your app.py file
+Finally to deploy our model using spark library. Type "python app.py" in your terminal pointing straight to the path of your app.py file
