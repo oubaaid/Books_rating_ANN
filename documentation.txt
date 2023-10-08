@@ -1,0 +1,23 @@
+Data Analysis
+	Data processing :
+		Load data
+		Deal with missing values/NA
+	Data cleaning :
+		Eliminate rows/values
+	Exploratory Data Analysis (plots of relevant attributes) :
+	
+	feature selection (authors, language_code, num_pages, ratings_count, text_reviews_count, publication_date, publisher)
+		feature engineering :
+		feature pruning (dimensions reduction) :
+		choice justification :
+
+
+
+Model Trainging
+	Model Training :
+		Model selection
+		Train + Test Data
+		Evaluation :
+			evaluation metric
+			results interpretation)
+			

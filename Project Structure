@@ -1,0 +1,14 @@
+|-- @Authors : Oubaid Allah Gharbi - Data Scientist
+|-- data
+|   |-- books.csv
+|
+|-- Models
+|   |-- checkpoint
+|
+|-- ML project.ipynb
+|-- Readme.txt
+|
+|-- requirements.txt
+|
+|-- App.py
+|
