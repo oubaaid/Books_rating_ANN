@@ -12,9 +12,9 @@ mainly boxes of multiple books/novels, except some J.K.K books of harry potter w
 Audio-Books with pages lower than 30 mainly were found to have incorrect number of pages. They are going to be eliminated for giving incorrect input about pages.
 Low number of pages was also related mainly to guide-books, children books, etc.. They are not going to be eliminated.
 
-books with high ratings_count are in english, and it is true they are the most famous ones.
+Books with high ratings_count are in english, and it is true they are the most famous ones.
 It is strange to find books with average_rating, but have 0 ratings_count in the other hand. We are going to eliminate them
-Also books with low ratings rate are irrelevant to our data and model as well. eliminating them.
+Also books with low ratings rate are irrelevant to our data and model as well. So eliminating them.
 
 The books above 20k text_reviews_count are specials book, however being this uniquene may be irrelevant to our data and can cause confusion to our model. We will eliminate
 them. We can eliminate all the other points above the 662 count mark and consider them as outliers. However this can be relevant information to our model as these points have
@@ -22,13 +22,13 @@ a progressive pattern.
 
 Seeing that publisher column contains 1491 distinct values, best way to transform it is through Label encoding method. Where each publisher will be assigned to an int64.
 
-language code has the same issue issue, string values are going to be tranformed to int values representing each language.
+language code has the same issue, string values are going to be tranformed to int values representing each language.
 We are using an encoder for the language and publisher encoding values.
 
 For the publication_date column, we will divide the column into 3 seperate columns, as follow : Month, Day and Year
 We convert the 'publication_date' column to datetime with 'coerce' for handling invalid dates
 
-We were wondering about keeping the column "publisher" or not, if it has an actual relevance in terms of data or not.
+I was wondering about keeping the column "publisher" or not, if it has an actual relevance in terms of data or not.
 We can also suppose that in real life some publishers can put work more than others or even have a bigger ability to distribute a book.
 
 Concerning data standarzation and normalization :
@@ -41,7 +41,7 @@ avg_ratings which is our target column is normaly distributed, which is a good s
 
 I have split our data to data and target (x and y), then split our data randomly to test and train blocks, with a test size of 20% of the total dataset.
 
-I have also noticed some nan rows are causing nan loss function and 0 accuracy metric after final standarzation
+I have also noticed some Nan rows are causing nan loss function and 0 accuracy metric after final standarzation
 We perform a row dropping action to eliminate these nan values in both train and test data
 
 For model training, I started with Classic AdaBoost model, then simple linear regression, moving to Randomforest.
